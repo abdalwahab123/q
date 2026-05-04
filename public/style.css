@@ -1,0 +1,41 @@
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f172a,#334155);
+    font-family:Tahoma;
+}
+
+.container{
+    display:flex;
+    gap:30px;
+}
+
+.card{
+    width:350px;
+    padding:35px;
+    border-radius:20px;
+    background:rgba(255,255,255,.12);
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+h2{
+    color:white;
+    text-align:center;
+}
+
+input, button{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+}
+
+button{
+    background:#38bdf8;
+    color:white;
+    cursor:pointer;
+}
